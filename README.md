@@ -7,7 +7,7 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Test Cases](#testcases)
+- [Test Cases](#test-cases)
 
 ## Introduction
 
