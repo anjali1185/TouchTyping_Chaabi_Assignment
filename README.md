@@ -7,7 +7,7 @@
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Acknowledgements](#acknowledgements)
+- [Test Cases](#testcases)
 
 ## Introduction
 
@@ -56,5 +56,35 @@ This web application is built using the following technologies:
 - CSS3
 - JavaScript
 - React State Management
+
+## Test Cases
+
+Here are multiple test cases you can consider for testing your web app:
+
+1. *Typing Correct Keys:* Type the correct keys (asdfjkl;) as indicated in the "Next Key" section and verify that the accuracy percentage remains unaffected.
+
+2. *Typing Incorrect Keys:* Type incorrect keys and verify that the accuracy percentage decreases accordingly.
+
+3. *Virtual Keyboard Highlight:* Verify that the virtual keyboard highlights the keys you press correctly and updates the location of the next key to be pressed.
+
+4. *Performance Tracking:* Type a series of keys within the 5-minute practice window and verify that the number of keys pressed is accurately tracked.
+
+5. *Idle Time Handling:* Let the 5-minute practice window elapse without typing anything and verify that the modal appears with the appropriate message.
+
+6. *Modal Content:* After the 5-minute practice window, verify that the modal displays the correct information, including the total number of keys pressed, the number of correct keys pressed, the number of incorrect keys pressed, and a message based on the accuracy value.
+
+7. *Start Practicing Button:* Click on the "Start Practicing" button on the landing page and verify that it redirects to the main page correctly.
+
+8. *CSS Styling:* Ensure that the CSS3 styles are applied correctly, providing an appealing design and layout.
+
+9. *Responsive Design:* Test the application on different devices and screen sizes to ensure a responsive user experience.
+
+10. *State Management:* If you are using a state management tool (e.g., Redux, MobX), verify that the application state is managed correctly and updates are reflected as expected.
+
+11. *Error Handling:* Test for any error scenarios, such as entering invalid input or encountering network issues, and ensure that appropriate error messages or fallbacks are displayed.
+
+12. *Cross-Browser Compatibility:* Test the web app on different browsers (e.g., Chrome, Firefox, Safari) to ensure compatibility and consistent behavior across platforms.
+
+These test cases cover various aspects of your web app, including functionality, user experience, performance tracking, error handling, and cross-browser compatibility. Adapt them as needed based on your specific application requirements and features.
 
 Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests. Happy typing!
