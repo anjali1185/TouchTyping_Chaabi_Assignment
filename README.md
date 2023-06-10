@@ -9,6 +9,9 @@
 - [Technologies Used](#technologies-used)
 - [Test Cases](#test-cases)
 
+## Deployment Link
+- https://keysense.netlify.app/
+
 ## Introduction
 
 Touch typing is a valuable skill that can significantly improve your productivity and efficiency when working with computers. This web application focuses on practicing the 8 keys of the keyboard (asdfjkl;). By practicing these keys regularly, you can enhance your muscle memory and typing accuracy.
